@@ -1,5 +1,5 @@
 # Setting Google Test
-## manual for noobs
+#### manual for noobs
 
 I hope it helps everybody who wants to set and use Gtest in CLion, without any clue, like me. 
 
@@ -31,18 +31,15 @@ In CLion you need to separate your existing project from Google Test, so:
  So your directory structure needs to look like this:
  
  - project 
-    | 
-    -- project_files 
-    -- project_tests 
-         | 
-         -- lib 
-         |  | 
-         |   -- gtest 
-         -- tests 
+    - project_files 
+    - project_tests 
+        - lib
+            - gtest
+        - tests
             
 You should have the main.cpp and CMakeLists.txt files under your project root, as they were original.
    
-### 3. Create and set CMakeLists files
+#### 3. Create and set CMakeLists files
    
    You need CMakeLists.txt files almost all subdirectory you have, but at least one per projects and one for in the root.
    

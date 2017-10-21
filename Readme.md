@@ -39,11 +39,11 @@ In CLion you need to separate your existing project from Google Test, so:
             
 You should have the main.cpp and CMakeLists.txt files under your project root, as they were original.
    
-#### 3. Create and set CMakeLists files
+### 3. Create and set CMakeLists files
    
-   You need CMakeLists.txt files almost all subdirectory you have, but at least one per projects and one for in the root.
+   You need to have separate CMakeLists.txt files in almost all subdirectories, but at least one per project and one in the root.
    
-### project/CMakeLists.txt content:
+#### project/CMakeLists.txt content:
    
       cmake_minimum_required(VERSION 3.8) 
       project(project_name) 
@@ -83,12 +83,15 @@ You should have the main.cpp and CMakeLists.txt files under your project root, a
 
 If they are done, you can use Alt+Insert to generate Tests, and Ctrl+Shift+F10 to Run the test where the carret is placed.
 
-### 5. Set suff in running configuration
+### 5. Set tests in run/debug configuration
 
-In the ideal case you can run from here the main.cpp, or the test files, by once or all of them.
+In the ideal case you can run from here the main.cpp, or the test files, separate or all of them.
 
 In the run/debug configurations panel you can add/remove configuration, on the left side will be a Google Test.
-There should be already a configuration to run all your test, which you set earlier in the tests librarys CMake as executable.
+There should be already here a configuration to run all your test, which you set earlier in the tests library CMake as executable.
 You can specify a suite here by adding your class name inherited from Google's Test, in this case this config should run only those tests.
-  
-  
+
+### 6. Enjoy
+
+Thanks for reading it. 
+Hope it helps.

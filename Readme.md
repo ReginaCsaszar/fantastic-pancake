@@ -1,5 +1,5 @@
 # Setting Google Test
-#### manual for noobs
+#### Manual for noobs
 
 I hope it helps to everybody who wants to set and use Gtest in CLion, without any clue, like me. 
 
@@ -12,8 +12,10 @@ I hope it helps to everybody who wants to set and use Gtest in CLion, without an
 I followed the CLion recommendations everywhere I can. 
 
 #### The resources I used: 
-JetBrains video about CLion Google Test support: https://www.youtube.com/watch?v=8Up5eNZ0FLw 
+JetBrains video about CLion Google Test support: https://www.youtube.com/watch?v=8Up5eNZ0FLw
+
 JetBrains video about CLion Google Test settings: https://www.youtube.com/watch?v=Rbb0fVCz41w 
+
 JetBrains's blog post about Google Test support and settings: https://blog.jetbrains.com/clion/2015/10/new-clion-1-2-eap-build-brings-you-google-test/
 
 ### 1. Download Google Test

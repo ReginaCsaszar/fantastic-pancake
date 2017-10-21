@@ -1,18 +1,19 @@
 # Setting Google Test
 #### manual for noobs
 
-I hope it helps everybody who wants to set and use Gtest in CLion, without any clue, like me. 
+I hope it helps to everybody who wants to set and use Gtest in CLion, without any clue, like me. 
 
-After those steps:
+#### After those steps:
+
 - you will have separate subprojects in your projects, one for the tests and one for your original project. 
 - your original main.cpp will remain and conpletly usable. 
-- you can use the built-in Google Test support provided by CLion (including keystrokes for running and create test) 
+- you can use the built-in Google Test support provided by CLion. 
 
 I followed the CLion recommendations everywhere I can. 
 
-The resources I used: 
-JetBrains video about CLion Google Test support: https://www.youtube.com/watch?v=8Up5eNZ0FLw
-JetBrains video about CLion Google Test settings: https://www.youtube.com/watch?v=Rbb0fVCz41w
+#### The resources I used: 
+JetBrains video about CLion Google Test support: https://www.youtube.com/watch?v=8Up5eNZ0FLw 
+JetBrains video about CLion Google Test settings: https://www.youtube.com/watch?v=Rbb0fVCz41w 
 JetBrains's blog post about Google Test support and settings: https://blog.jetbrains.com/clion/2015/10/new-clion-1-2-eap-build-brings-you-google-test/
 
 ### 1. Download Google Test
@@ -94,4 +95,3 @@ You can specify a suite here by adding your class name inherited from Google's T
 ### 6. Enjoy
 
 Thanks for reading it. 
-Hope it helps.
